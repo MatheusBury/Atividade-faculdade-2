@@ -1,54 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio</title>
+    <title>Matheus Bury</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h2>Escolha um arquivo</h2>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portifolio Pessoal </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-2" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Redes Socias</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Experiencias Profissional
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Cabs internacional</a></li>
+                    <li><a class="dropdown-item" href="#">Vidya Tecnologia</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Volvo do Brasil</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+        <h1>Matheus Bury</h1>
 
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <br><br>
-        <input type="submit" value="Enviar">
-    </form>
-
-    <video controls width="500px">
-        <source src="video/ursula_logo.mp4" type="video/mp4">
-        <source src="video/ursula_logo.mp4" type="video/mp4">
-    </video>
-    <header> 
-        <nav>
-            <dl>
-                <dt>Perfil</dt>
-                <dd> Vai para o perfil</dd>
-                <dt>Sobre</dt>
-                <dt> Vai para o perfil</dd>
-                <dt>Contato</dt>
-                <dd> Vai para o perfil</dd>
-            </dl>
-        </nav>
-        <h1>Lorem Ipsum</h1>
     </header>
     <section>
-        <h2> Maecenas tincidunt</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ligula venenatis, ornare odio quis, aliquam lectus. Morbi non leo eget justo vulputate accumsan. Etiam a metus eu justo viverra pellentesque. Phasellus sed dictum elit, ut malesuada risus. Mauris mi odio, efficitur ut pellentesque sed, hendrerit a lorem. Sed quis ullamcorper ligula. Vivamus ac purus nec metus aliquet scelerisque sollicitudin et ex. Etiam vel fringilla justo. Vestibulum nec ipsum vel ex accumsan accumsan eu ac nisl. Nam vehicula, nisl vitae rutrum tristique, magna lacus faucibus lorem, id convallis justo nisi eu est. Cras ultrices orci sagittis lobortis dapibus. Praesent porta ac leo accumsan ultricies. Phasellus tellus velit, semper eu blandit a, semper a orci. Donec sodales eros ipsum, at dignissim justo consequat ac. Sed purus lacus, tincidunt sit amet felis eu, rhoncus elementum nisi. Phasellus at magna vel urna auctor consequat.</p>
-        <h2> Pellentesque habitant</h2>
-        <P>Etiam neque turpis, pharetra vel ligula vitae, scelerisque faucibus urna. Sed lobortis enim mattis, tincidunt lacus quis, faucibus lorem. Quisque at est risus. Donec non nibh risus. Suspendisse commodo vestibulum enim, porta euismod orci egestas nec. Vestibulum at dapibus felis, ut maximus diam. Cras consectetur efficitur felis. Aliquam dui odio, pellentesque nec vehicula sed, luctus placerat lorem.</p>
+        <figure class="text-center ">
+            <blockquote class="blockquote">
+              <p>“A melhor maneira de aprender, seja o que for, é fazendo.”.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Richard Branson  <cite title="Source Title">Fundador do Grupo Virgin</cite>
+            </figcaption>
+          </figure>
+        <br><br>
+        <div class="container">
+            <section class="bg-primary text-white">
+              <h2>Conto 1: O Leão e o Rato</h2>
+              <p>Era uma vez, um leão que estava dormindo sob a sombra de uma árvore. Um rato pequeno, sem querer, correu sobre ele e acordou-o. O leão, irritado com isso, pegou o rato e estava prestes a devorá-lo.</p>
+            </section>
+            
+            <section class="bg-success text-white">
+              <h2>hisotiro 561: O Corvo e o Jarro</h2>
+              <p>Certo dia, um corvo estava muito sedento e procurava água para beber. Depois de muito procurar, ele encontrou um jarro com um pouco de água no fundo, mas o bico dele era muito curto para alcançá-la. Ele pensou um pouco e teve uma ideia brilhante.</p>
+            </section>
+            
+            <section class="bg-warning text-dark">
+              <h2>Conto 3: A Tartaruga e a Lebre</h2>
+              <p>Numa floresta, uma lebre zombou de uma tartaruga por ser tão lenta. A tartaruga, magoada, propôs uma corrida à lebre. A lebre, rindo, aceitou de bom grado, achando que ganharia facilmente.</p>
+            </section>
+          </div>
     </section>
-    <p>
-        <a href = "https://www.w3.org"> Site oficial da W3C </a>
-    </p>
-    <figure>
-    <img src="F:\1 Faculdade\Modulo A1\Desenvolvimento FrontEnd\img\ursula text blank.png" alt="Oops, esqueci a imagem">
-    </figure>Logo</figcaption>
-    </figure>
+    
+    <br><br>
+    
+    <br><br>
+    <section>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Digite seu Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+          
+          <div class="mb-3">
+            <label for="basic-url" class="form-label">Sua rede social URL</label>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+            </div>
+            <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+          </div>
+    </section>
+    <br><br>
     <footer>
-        <p> Autor: Matheus Bury</br>
-        <br> Contatos (41) 9 9520-2489</br>
-        <br> Data: 30/01/2024 </br>
-        <br> Essa pagina web foi criada para mostrar como funciona o HTML e como utilizar as tags &lt;title&gt;,&lt;body&gt;,&lt;h1&gt;,&lt;section&gt;,&lt;a&gt;,&lt;footer&gt;. </p>
+        <div class="card">
+            <h5 class="card-header">Matheus Bury</h5>
+            <div class="card-body">
+              <h5 class="card-title">&copy Bury</h5>
+              <p class="card-text">Esse é um projeto de escola.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
